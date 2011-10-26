@@ -25,9 +25,9 @@ use Rack::Rewrite do
   r301 '/%7D', 'http://last.fm/user/philtr'
   r301 '/m', 'http://last.fm/user/philtr'
 
-  r301 '/^', 'http://forr.st/philtr'
-  r301 '/%5E', 'http://forr.st/philtr'
-  r301 '/fst', 'http://forr.st/philtr'
+  r301 '/^', 'http://forrst.com/people/philtr'
+  r301 '/%5E', 'http://forrst.com/people/philtr'
+  r301 '/fst', 'http://forrst.com/people/philtr'
 end
 
 run Philtr::App
