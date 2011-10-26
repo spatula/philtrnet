@@ -18,6 +18,7 @@ use Rack::Rewrite do
   r301 '/p', 'http://google.com/profiles/philtr'
 
   r301 '/%', 'http://flickr.com/photos/philtr'
+  r301 '/%25', 'http://flickr.com/photos/philtr'
   r301 '/fr', 'http://flickr.com/photos/philtr'
 
   r301 '/}', 'http://last.fm/user/philtr'
@@ -25,6 +26,7 @@ use Rack::Rewrite do
   r301 '/m', 'http://last.fm/user/philtr'
 
   r301 '/^', 'http://forr.st/philtr'
+  r301 '/%5E', 'http://forr.st/philtr'
   r301 '/fst', 'http://forr.st/philtr'
 end
 
